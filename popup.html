@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Instagram Focus</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Instagram Focus</p>
+      <h1 id="status-title">Focus is on</h1>
+      <p id="status-copy">DMs and search only.</p>
+      <p id="countdown" hidden></p>
+      <div id="pause-actions" class="actions">
+        <button type="button" data-minutes="1">1 min</button>
+        <button type="button" data-minutes="5">5 min</button>
+        <button type="button" data-minutes="15">15 min</button>
+      </div>
+      <button id="resume" type="button" class="resume" hidden>Resume Focus</button>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

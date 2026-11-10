@@ -1,0 +1,13 @@
+html.ig-focus-blocked main,
+html.ig-focus-blocked [role="main"] {
+  visibility: hidden !important;
+}
+
+html.ig-focus-search-mode main,
+html.ig-focus-search-mode [role="main"] {
+  visibility: hidden !important;
+}
+
+[data-ig-focus-hide] {
+  display: none !important;
+}
